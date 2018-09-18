@@ -1,0 +1,68 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.MC_PlanItOut"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <!--  Add Google Map Library -->
+        <uses-library android:name="com.google.android.maps" />
+        
+        
+		
+         <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="8115000" />
+        
+        
+        <activity
+            android:name=".Splashscreen"
+            android:label="@string/title_activity_main" android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+   
+        <!-- SinglePlaceActivity -->
+        <activity android:name=".SinglePlaceActivity" android:label="Place Details">
+		</activity>
+		 <activity android:name=".G_Login" android:label="Login Screen" android:screenOrientation="portrait" >
+		</activity>
+		 <activity android:name=".MainActivity" android:label="Place Details">
+		</activity>
+        <activity android:name=".User" android:label="Pick your favourites" android:screenOrientation="portrait" >
+		</activity>
+		<activity android:name=".Plan_List" android:label="Final Plan List" android:screenOrientation="portrait" >
+		</activity>
+		 <activity android:name=".Autocomplete" android:label="location search" android:screenOrientation="portrait" >
+		</activity>
+		 <activity android:name=".Autocompletebutton" android:label="location search" android:screenOrientation="portrait" >
+		</activity>
+		 
+		 
+        <!-- PlacesMapActivity -->
+        <activity android:name=".PlacesMapActivity" android:label="Near Places Map View">
+		</activity>
+    </application>
+    
+    <!-- Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+ 
+    <!-- Network State Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
+    <!-- Access Location -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+</manifest>

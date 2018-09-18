@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/background" >
+
+     <requestFocus/>
+
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/autoCompleteTextView"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="21dp"
+         android:text="Which place you want to go ?"
+         android:textColor="#ffffff"
+         android:textSize="20sp"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <AutoCompleteTextView
+         android:id="@+id/autoCompleteTextView"
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:layout_centerHorizontal="true"
+         android:layout_centerVertical="true"
+         android:background="@drawable/back"
+         android:drawableLeft="@drawable/ic_search_white_18dp"
+         android:ems="10"
+         android:hint=" Place"
+         android:textColor="@color/white" />
+    
+</RelativeLayout>

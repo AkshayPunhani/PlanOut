@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="lib" path="D:/IIIT-Delhi/4th year/Parse-1.10.3/bolts-android-1.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/IIIT-Delhi/4th year/Parse-1.10.3/Parse-1.10.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/IIIT-Delhi/4th year/Eclipse4.4.1Luna32WCSPlugin/android-sdk/extras/google/google_play_services/libproject/google-play-services_lib/libs/google-play-services.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

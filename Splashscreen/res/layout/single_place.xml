@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dip"
+    android:background="@drawable/background" >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:background="#33ffffff"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:textSize="40dp" />
+
+    <!-- Address Label -->
+
+
+    <!-- Address Value -->
+
+
+    <!-- Phone Number Label -->
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="37dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/dis"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/address"
+        android:layout_below="@+id/address"
+        android:layout_marginTop="26dp" 
+        android:textStyle="bold"
+        android:textColor="#ffffff" />
+        
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dis"
+        android:layout_below="@+id/dis"
+        android:layout_marginTop="16dp" 
+        android:textStyle="bold"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="335dp"
+        android:background="@drawable/back"
+        android:drawableLeft="@drawable/ic_add_white_18dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="  Add to Plan List  "
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="335dp"
+        android:background="@drawable/back"
+        android:drawableLeft="@drawable/ic_clear_white_18dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="  Remove from List   "
+        android:textColor="#ffffff"
+        android:visibility="invisible" />
+
+</RelativeLayout>

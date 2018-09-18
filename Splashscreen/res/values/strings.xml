@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">Plan It Out</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Plan It Out</string>
+    <string name="budget">Enter budget in Rs</string>
+    <string name="radius">Enter radius in Km</string>
+	<string name="monument">Monuments</string>
+	<string name="rest">Restaurants</string>
+	<string name="theatre">Cafe</string>
+	<string name="sm">Night Clubs</string>
+	<string name= "next">Proceed</string>
+	<string name="bakery">Bakery</string>
+	<string name="amuse">AmusementParks</string>
+	<string name="casino">Casino</string>
+	<string name="zoo">Zoo</string>
+	<string name="shopping">Shopping Mall</string>
+	<string name="art">Art Gallery</string>
+	<string name="libr">Library</string>
+	<string name="bar">Bar</string>
+	<color name="FA">#515151</color>
+	<color name="white">#FFFFFF</color>
+
+</resources>
